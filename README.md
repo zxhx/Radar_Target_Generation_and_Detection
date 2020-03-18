@@ -2,9 +2,7 @@
 
 ## I. Project Layout
 
-
-
-![Proj Layout](.\images\Proj Layout.png)
+![Proj Layout](https://github.com/zxhx/Radar_Target_Generation_and_Detection/blob/master/images/Proj%20Layout.png)
 
 - Configure the FMCW waveform based on the system requirements.
 
@@ -15,8 +13,7 @@
 - Perform Range FFT on the received signal to determine the Range
 
 - Towards the end, perform the CFAR processing on the output of 2nd FFT to display the target.
-
-  
+ 
 
 ## II. Radar System Requirements
 
@@ -68,19 +65,19 @@ slope = bandwidth /chirp_time; % slope of FMCW
 
   
 
-#####FFT-1D output
+##### FFT-1D output
 
-![Range in FFT-1D](.\images\Range in FFT-1D.png)
+![Range in FFT-1D](https://github.com/zxhx/Radar_Target_Generation_and_Detection/blob/master/images/Range%20in%20FFT-1D.png)
 
 The FFT-2D then generates a RDM(Range-Doppler-Map) image as shown below:
 
-#####Range Doppler Map output:
+##### Range Doppler Map output:
 
-![RDM](.\images\RDM.png)
+![RDM](https://github.com/zxhx/Radar_Target_Generation_and_Detection/blob/master/images/RDM.png)
 
 #### 3, 2D CFAR implementation
 
-#####Main steps: 
+##### Main steps: 
 
 * Implementation steps for the 2D CFAR process. 
 
@@ -134,9 +131,7 @@ The FFT-2D then generates a RDM(Range-Doppler-Map) image as shown below:
          end
     end
     ```
-
-    
-
+  
   * The process above will generate a thresholded block, which is smaller 
     than the Range Doppler Map as the CUT cannot be located at the edges of
     matrix. Hence,few cells will not be thresholded. To keep the map size same
@@ -148,9 +143,6 @@ The FFT-2D then generates a RDM(Range-Doppler-Map) image as shown below:
 
 * Finally the CFAR output is shown as below: 
 
-#####Doppler Response output: 
+##### Doppler Response output: 
 
-![RDM](.\images\FFT2 surf plot.png)
-
-
-
+![RDM](https://github.com/zxhx/Radar_Target_Generation_and_Detection/blob/master/images/FFT2%20surf%20plot.png)
