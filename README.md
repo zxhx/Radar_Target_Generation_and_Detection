@@ -78,7 +78,7 @@ The FFT-2D then generates a RDM(Range-Doppler-Map) image as shown below:
 * Select Training, Guard cells and offset: Training and Guard cell values were randomly selected based on experience, offset value is taken as dB equivalent of maximum noise floor value present in RDM.
 * Take steps to suppress the the non-thresholded cells at the edges: the CFAR-signal matrix was assigned to dimensions of RDM and all values are initialized to zero. The final CFAR output is shown as below.
 
-#####Doppler Response output: 
+##### Doppler Response output: 
 
 ![RDM](https://github.com/zxhx/Radar_Target_Generation_and_Detection/blob/master/images/FFT2%20surf%20plot.png)
 
