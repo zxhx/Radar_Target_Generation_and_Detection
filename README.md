@@ -4,7 +4,7 @@
 
 
 
-![Proj Layout](.\images\Proj Layout.png)
+![Proj Layout](https://github.com/zxhx/Radar_Target_Generation_and_Detection/blob/master/images/Proj%20Layout.png)
 
 - Configure the FMCW waveform based on the system requirements.
 
@@ -20,7 +20,7 @@
 
 ## II. Radar System Requirements
 
-![Radar System Requirements](.\images\Radar System Requirements.png)
+![Radar System Requirements](https://github.com/zxhx/Radar_Target_Generation_and_Detection/blob/master/images/Radar%20System%20Requirements.png)
 
 # III. Process
 
@@ -70,13 +70,13 @@ slope = bandwidth /chirp_time; % slope of FMCW
 
 #####FFT-1D output
 
-![Range in FFT-1D](.\images\Range in FFT-1D.png)
+![Range in FFT-1D](https://github.com/zxhx/Radar_Target_Generation_and_Detection/blob/master/images/Range%20in%20FFT-1D.png)
 
 The FFT-2D then generates a RDM(Range-Doppler-Map) image as shown below:
 
 #####Range Doppler Map output:
 
-![RDM](.\images\RDM.png)
+![RDM](https://github.com/zxhx/Radar_Target_Generation_and_Detection/blob/master/images/RDM.png)
 
 #### 3, 2D CFAR implementation
 
@@ -88,7 +88,7 @@ The FFT-2D then generates a RDM(Range-Doppler-Map) image as shown below:
 
 #####Doppler Response output: 
 
-![RDM](.\images\FFT2 surf plot.png)
+![RDM](https://github.com/zxhx/Radar_Target_Generation_and_Detection/blob/master/images/FFT2%20surf%20plot.png)
 
 
 
