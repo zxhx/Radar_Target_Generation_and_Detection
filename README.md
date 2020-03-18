@@ -1,7 +1,7 @@
 # Radar-Target-Generation-and-Detection
 
 ## I. Project Layout
----
+
 ![Proj Layout](https://github.com/zxhx/Radar_Target_Generation_and_Detection/blob/master/images/Proj%20Layout.png)
 
 - Configure the FMCW waveform based on the system requirements.
